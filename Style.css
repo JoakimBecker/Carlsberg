@@ -12,7 +12,7 @@ nav{
 	width: 100%;
 	z-index: 999;
 }
-nav .wrapper{
+nav .wrapper{ /* border */ 
 	max-width: 1250px;
 	padding: 0 5px;
 	margin: auto;
@@ -27,20 +27,65 @@ nav .wrapper{
 .nav-links li{
 	list-style: none;
 }
-.nav-links li a{
+.nav-links li a{ /* menu bar */ 
 	color: white;
 	text-decoration: none;
 	font-size: 18px;
 	font-weight: 500;
 	padding: 9px 15px;
 	border-radius: 4px;
+	transition: all 0.4s ease;
 }
 .nav-links li a:hover{
 	background: #213B35;
+}
+.nav-links .drop-menu{ 
+	background: #046832;
+	line-height: 45px;
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+}
+.nav-links li:hover .drop-menu{
+	opacity: 1;
+	visibility: visible;
+	transition: all 0.4s ease;
+}
+.drop-menu li a{ /* drop menu teksten */
+	display: block;
+	font-weight: 400;
+	border-radius: 10px;
 }
 
 div.picture1 {
    width:153px; 
    height:60px; 
    background-image:url('Carlsberglogof.png'); 
+}
+@media screen and (max-width: 970px) { /* drop menu mobil */
+	.wrapper .nav-links{
+	position: fixed;
+	display: block;
+	height: 100vh;
+	width: 100%;
+	max-width: 350px;
+	background: #046832;
+	top: 0;
+	left: 0;
+	overflow-y: auto;
+	line-height: 50px;
+	padding: 50px 10px;
+	box-shadow: 2px 15px 15px;
+	}
+	.nav-links li{
+		margin: 10px 10px;
+	}
+	.nav-links li a{
+		padding: 0 20px;
+		display: block;
+		font-size: 20px;
+	}
+	.nav-links .drop-menu{
+		position: static;
+	}
 }
