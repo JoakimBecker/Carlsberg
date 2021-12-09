@@ -11,35 +11,34 @@ nav{
 	position: fixed;
 	width: 100%;
 	z-index: 999;
-	height: 65px;
-	line-height: 65px;
 }
 nav .wrapper{
-	background: #036832;
-	padding: 0 30px;
+	max-width: 1250px;
+	padding: 0 5px;
 	margin: auto;
 	display: flex;
 	align-items: center;
-	justify-content: space-between
+	justify-content: space-between;
+	line-height: 65px;
 }
 .wrapper .nav-links{
 	display: inline-flex;
 }
 .nav-links li{
-	list-style: none;}
-
+	list-style: none;
+}
 .nav-links li a{
-	color: #FFFFFF;
+	color: white;
 	text-decoration: none;
 	font-size: 18px;
 	font-weight: 500;
 	padding: 9px 15px;
-	border-radius: 5px;
-	transition: all 0.4s ease;
+	border-radius: 4px;
 }
 .nav-links li a:hover{
 	background: #213B35;
 }
+
 div.picture1 {
    width:153px; 
    height:60px; 
