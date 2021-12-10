@@ -65,7 +65,20 @@ div.picture1 {
 .nav-links .mobile-item{
 	display: none;
 }
+.wrapper .btn {
+	font-size: 20px;
+	cursor: pointer;
+	display: none;
+}
+.wrapper .cancel-btn{
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
 @media screen and (max-width: 970px) { /* drop menu mobil */
+	.wrapper .btn {
+	display: block;
+}
 	.wrapper .nav-links{
 	position: fixed;
 	display: block;
@@ -74,12 +87,20 @@ div.picture1 {
 	max-width: 350px;
 	background: #046832;
 	top: 0;
-	left: 0;
+	left: -100%;
 	overflow-y: auto;
 	line-height: 50px;
 	padding: 50px 10px;
 	box-shadow: 2px 15px 15px;
+	transition: all 0.4s ease;
 	}
+	#menu-btn:checked ~ .nav-links{
+		left: 0%;
+		
+	}
+	.nav-links{
+		width: none;
+	} 
 	.nav-links li{
 		margin: 10px 10px;
 	}
