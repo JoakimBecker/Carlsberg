@@ -54,12 +54,12 @@ nav .wrapper{ /* border */
 .drop-menu li a{ /* drop menu teksten */
 	display: block;
 	font-weight: 400;
-	border-radius: 10px;
+	border-radius: 10px; 
 }
 
 div.picture1 {
    width:153px; 
-   height:60px; 
+   height:60px;
    background-image:url('Carlsberglogof.png'); 
 }
 .nav-links .mobile-item{
@@ -82,8 +82,8 @@ div.picture1 {
 	.wrapper .nav-links{
 	position: fixed;
 	display: block;
-	height: 100vh;
-	width: 100%;
+	height: 350px;
+	width: 300px;
 	max-width: 350px;
 	background: #046832;
 	top: 0;
@@ -146,4 +146,34 @@ div.picture1 {
 }
 .wrapper input{
 	display: none;
+}
+
+/* forside */ 
+
+.forside-banner {
+	width: 100%;
+	height: 300px;
+	background-image: url("../../Carlsbergbanner.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.forside-banner h1 {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 8px #000000;
+	line-height: 170px;
+}
+footer {
+	width: 100%px;
+	height: 100px;
+	padding: 40px 40px;
+	margin-top: 20px;
+	background-color: #046832;
+}
+.footer-text {
+	color: white;
+	list-style-type: none;
 }
