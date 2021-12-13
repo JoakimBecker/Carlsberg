@@ -158,7 +158,14 @@ div.picture1 {
 	background-position: center;
 	background-size: cover;
 }
-
+.index-headline{
+	margin: 20px 20px;
+	text-align: center;
+}
+.index-text{
+	padding: 10px;
+	
+}
 footer {
 	width: 100%px;
 	height: 100px;
