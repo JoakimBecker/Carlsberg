@@ -150,30 +150,27 @@ div.picture1 {
 
 /* forside */ 
 
-.forside-banner {
+.index-banner {
 	width: 100%;
-	height: 300px;
-	background-image: url("../../Carlsbergbanner.jpeg");
+	height: 200px;
+	background-image: url("Carlsbergbanner.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
-.forside-banner h1 {
-	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
-	font-size: 30px;
-	text-align: center;
-	color: white;
-	text-shadow: 2px 2px 8px #000000;
-	line-height: 170px;
-}
+
 footer {
 	width: 100%px;
 	height: 100px;
-	padding: 40px 40px;
-	margin-top: 20px;
+	padding: 20px 20px;
+	margin-top: 330px;
 	background-color: #046832;
+
 }
 .footer-text {
+	line-height: 25px;
 	color: white;
 	list-style-type: none;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 20px;	
 }
