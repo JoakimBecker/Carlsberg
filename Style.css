@@ -161,10 +161,26 @@ div.picture1 {
 .index-headline{
 	margin: 20px 20px;
 	text-align: center;
+	font-size: 30px;
 }
 .index-text{
 	padding: 10px;
-	
+	color:#014B20;
+	font-size: 22px;
+}
+.carlsberg6pack {
+	width: 100%;
+}
+.readmore {
+	height: auto;
+	width: auto;
+	max-width: 180px;
+	padding: 20px
+}
+.jcpb {
+	height: auto;
+	width: auto;
+	padding: 20px;
 }
 footer {
 	width: 100%px;
