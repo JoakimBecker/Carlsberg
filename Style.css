@@ -182,23 +182,36 @@ div.picture1 {
 	width: auto;
 	padding: 20px;
 }
-footer {
-	width: 100%px;
-	height: 100px;
-	margin-top: 30px;
-	background-color: #046832;
-
+.footer{
+	display: flex;
+	flex-flow: row wrap;
+	color: #fff;
+	background: #046832
 }
-.footer-text {
-	line-height: 25px;
-	color: white;
-	list-style-type: none;
-	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
-	font-size: 20px;	
+.footer ul{
+	margin: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	list-style: none;
+}
+.box {
+	list-style: none;
+	align-items: center;
+	margin: 10px 10px 10px 10px;
+	line-height: 20px;
+	font-style: normal;
 }
 .flogo {
-	float: right;
 	height: auto;
 	width: auto;
-	max-height: 80px;
+	max-width: 60px;
+	margin-left: 20px;
+	float: right;
+}
+/* Historien bag */ 
+
+.responsive {
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
 }
