@@ -6,6 +6,9 @@ padding: 0;
 box-sizing: border-box;
 font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'
 }
+html {
+  scroll-behavior: smooth;
+}
 nav{
 	background: #036832;
 	position: fixed;
@@ -228,4 +231,14 @@ div.picture1 {
 	width: 100%;
 	height: auto;
 	margin-top: 60px;
+}
+.hb-headline {
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	font-size: 22px;
+	margin: 20px 20px;
+	text-align: center;
+}
+.hb-text {
+	padding: 10px;
+	font-size: 22px;
 }
