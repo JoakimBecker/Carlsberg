@@ -168,7 +168,7 @@ div.picture1 {
 }
 .index-text{
 	padding: 10px;
-	color:#014B20;
+	color:#213B35;
 	font-size: 22px;
 }
 .carlsberg6pack {
@@ -239,6 +239,17 @@ div.picture1 {
 	text-align: center;
 }
 .hb-text {
+	padding: 10px;
+	font-size: 22px;
+}
+.fonde-headline {
+	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+	font-size: 32px;
+	margin: 20px 20px;
+	text-align: center;
+	color: #213B35;
+}
+.fonde-text {
 	padding: 10px;
 	font-size: 22px;
 }
