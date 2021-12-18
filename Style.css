@@ -153,13 +153,10 @@ div.picture1 {
 
 /* forside */ 
 
-.index-banner {
+.responsiveindex {
 	width: 100%;
-	height: 200px;
-	background-image: url("Carlsbergbanner.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+	height: 150px;
+	margin-top: 60px;
 }
 .index-headline{
 	margin: 20px 20px;
@@ -242,7 +239,7 @@ div.picture1 {
 	padding: 10px;
 	font-size: 22px;
 }
-.fonde-headline {
+.fonde-headline { /* Carlsberg fondet */
 	font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
 	font-size: 32px;
 	margin: 20px 20px;
